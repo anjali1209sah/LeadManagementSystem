@@ -49,29 +49,29 @@ http://localhost:3000/
 
 ## Lead Management System
 
-# CRUD Operation 
+	# CRUD Operation 
 
-	1. Create 
-	
-	curl --location 'http://localhost:3000/api/v1/lead' \
-	--header 'Content-Type: application/json' \
-	--data-raw '{"name":"Anjali Kumari" , "email" : "anjaliKumari123@gmail.com" , "phone" :"123456789"}'
-	
-	2. Get 
-	
-	curl --location 'http://localhost:3000/api/v1/lead/1' \
-	--header 'Content-Type: application/json'
-	
-	3. Update
-	
-	curl --location --request PUT 'http://localhost:3000/api/v1/lead/1' \
-	--header 'Content-Type: application/json' \
-	--data '{"name":"Anjali Kumari" , "phone" :"123456789"}'
-	
-	4. Delete
-	
-	curl --location 'http://localhost:3000/api/v1/lead/1' \
-	--header 'Content-Type: application/json'
+		1. Create 
+		
+		curl --location 'http://localhost:3000/api/v1/lead' \
+		--header 'Content-Type: application/json' \
+		--data-raw '{"name":"Anjali Kumari" , "email" : "anjaliKumari123@gmail.com" , "phone" :"123456789"}'
+		
+		2. Get 
+		
+		curl --location 'http://localhost:3000/api/v1/lead/1' \
+		--header 'Content-Type: application/json'
+		
+		3. Update
+		
+		curl --location --request PUT 'http://localhost:3000/api/v1/lead/1' \
+		--header 'Content-Type: application/json' \
+		--data '{"name":"Anjali Kumari" , "phone" :"123456789"}'
+		
+		4. Delete
+		
+		curl --location 'http://localhost:3000/api/v1/lead/1' \
+		--header 'Content-Type: application/json'
 	
 
 ## Resources 
