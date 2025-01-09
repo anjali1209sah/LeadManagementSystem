@@ -49,7 +49,7 @@ http://localhost:3000/
 
 ## Lead Management System
 
-	# CRUD Operation 
+# CRUD Operation 
 
 		1. Create 
 		
@@ -76,6 +76,6 @@ http://localhost:3000/
 
 ## Resources 
 
-	 Google Developer Console: [https://console.cloud.google.com/](https://console.cloud.google.com/)
+	Google Developer Console: [https://console.cloud.google.com/](https://console.cloud.google.com/)
 	Passport.js Documentation: [http://www.passportjs.org/](http://www.passportjs.org/)
 
