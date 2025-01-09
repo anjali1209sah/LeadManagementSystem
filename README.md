@@ -1,5 +1,5 @@
-#### Healthcare Lead Management System
-# About 
+# Healthcare Lead Management System
+## About 
     A Lead Management System for ayurvedic fertility clinics to track and manage patient inquiries and consultations. The system includes automated status updates based on lead activity and inactivity.
 
 ## Technical Stack 
@@ -20,12 +20,12 @@ Deployment : Docker
 	Task 5: Create dashboards, analytics, and refine performance optimizations.
 
 ## COMMANDS 
-# RUN CODE
+### RUN CODE
 
 	npm install -i
 	npm run start
 
-# RUN DOCKER 
+### RUN DOCKER 
 
 	To start docker 
 		docker-compose up -d
@@ -36,7 +36,7 @@ Deployment : Docker
 	Get Logs
 		docker logs postgres_db
 
-# GENERATE PRISMA CLIENT
+### GENERATE PRISMA CLIENT
 
 	npx prisma generate
 
